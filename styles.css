@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-lg {
+  max-width: 1310px;
+}
+
+body img {
+  background-color: white;
+}
+
+.nav-top {
+  background-color: #f72210;
+}
