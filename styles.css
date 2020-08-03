@@ -23,9 +23,11 @@ body img {
   height: 1px;
   border-top: 15px solid #f72210;
   border-left: 13px solid #fff;
-  display: inline-block;
   width: 100px;
-  position: absolute;
   top: 0;
   right: 0;
+}
+
+.social {
+  font-size: 1.5rem !important;
 }
