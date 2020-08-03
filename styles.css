@@ -13,3 +13,9 @@ body img {
 .nav-top {
   background-color: #f72210;
 }
+
+.subscribe-button {
+  background-color: #ffe400;
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
+  padding: 2px 12px;
+}

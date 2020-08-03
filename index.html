@@ -14,28 +14,44 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="container container-lg bg-primary">
       <nav class="row nav-top justify-content-between">
-        <div class="col text-white d-flex flex-column justify-content-end">
+        <div
+          class="col text-white d-none d-md-flex flex-column justify-content-end"
+        >
           <p>25° Valencia, VE ></p>
           <p>Fri, Jul 31, 2020</p>
         </div>
-        <div class="col">
+        <div class="col-6 d-flex flex-column justify-content-center">
           <img
-            class="col-12"
-            src="https://thesoufancenter.org/wp-content/uploads/2018/03/9.png"
+            class="col-6 px-0 my-3"
+            src="./images/Newsweek_logo.png"
             alt="logo"
           />
         </div>
-        <div class="row col align-items-end justify-content-end pr-5">
-          <button type="button" class="btn text-white font-weight-bolder">
+        <div
+          class="row col-6 align-items-center justify-content-end mr-0 text-white px-4"
+        >
+          <i class="fa fa-user"></i>
+          <button
+            type="button"
+            class="btn d-none text-white font-weight-bolder"
+          >
             LOGIN
           </button>
-          <button type="button" class="btn btn-warning">
+          <button
+            type="button"
+            class="btn btn-warning rounded-pill subscribe-button mx-3"
+          >
             SUBCRIBE >
           </button>
+          <i class="fa fa-reorder"></i>
         </div>
       </nav>
     </div>
