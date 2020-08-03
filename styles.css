@@ -2,11 +2,8 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   max-width: 1310px;
   margin: auto;
+  background-color: #f4f5f6;
 }
-
-/* .container-lg {
-  max-width: 1310px;
-} */
 
 body img {
   background-color: white;
