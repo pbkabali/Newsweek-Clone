@@ -35,3 +35,14 @@ body img {
 .fa-linkedin {
   font-size: 1.5rem !important;
 }
+
+.opinion {
+  font-size: 1rem;
+}
+
+.vs {
+  right: 50%;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+}
