@@ -50,3 +50,8 @@ body img {
 .border-3 {
   border-width: 4px !important;
 }
+
+.bg-lighter {
+  background-color: #c2d4d7;
+  font-size: 11px;
+}
