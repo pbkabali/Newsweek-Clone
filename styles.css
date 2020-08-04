@@ -28,6 +28,10 @@ body img {
   right: 0;
 }
 
-.social {
+.fa-facebook-official,
+.fa-twitter,
+.fa-instagram,
+.fa-tumblr,
+.fa-linkedin {
   font-size: 1.5rem !important;
 }
