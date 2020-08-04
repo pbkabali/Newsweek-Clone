@@ -55,3 +55,14 @@ body img {
   background-color: #c2d4d7;
   font-size: 11px;
 }
+
+.sign-up {
+  max-width: 300px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.form-control {
+  height: 32px;
+}
