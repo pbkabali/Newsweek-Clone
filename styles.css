@@ -1,31 +1,31 @@
 body {
-  font-family: "Roboto Condensed", sans-serif;
-  max-width: 1310px;
-  margin: auto;
-  background-color: #f4f5f6;
+	font-family: "Roboto Condensed", sans-serif;
+	max-width: 1310px;
+	margin: auto;
+	background-color: #f4f5f6;
 }
 
 body img {
-  background-color: white;
+	background-color: white;
 }
 
 .nav-top {
-  background-color: #f72210;
+	background-color: #f72210;
 }
 
 .subscribe-button {
-  background-color: #ffe400;
-  font: bold 13px/24px;
-  padding: 2px 12px;
+	background-color: #ffe400;
+	font: bold 13px/24px;
+	padding: 2px 12px;
 }
 
 .badge-paul {
-  height: 1px;
-  border-top: 15px solid #f72210;
-  border-left: 13px solid #fff;
-  width: 100px;
-  top: 0;
-  right: 0;
+	height: 1px;
+	border-top: 15px solid #f72210;
+	border-left: 13px solid #fff;
+	width: 100px;
+	top: 0;
+	right: 0;
 }
 
 .fa-facebook-official,
@@ -33,36 +33,42 @@ body img {
 .fa-instagram,
 .fa-tumblr,
 .fa-linkedin {
-  font-size: 1.5rem !important;
+	font-size: 1.5rem !important;
 }
 
 .opinion {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 .vs {
-  right: 50%;
-  top: 50%;
-  width: 2rem;
-  height: 2rem;
+	right: 50%;
+	top: 50%;
+	width: 2rem;
+	height: 2rem;
 }
 
 .border-3 {
-  border-width: 4px !important;
+	border-width: 4px !important;
 }
 
 .bg-lighter {
-  background-color: #c2d4d7;
-  font-size: 11px;
+	background-color: #c2d4d7;
+	font-size: 11px;
 }
 
 .sign-up {
-  max-width: 300px;
-  border: 1px solid #e5e5e5;
-  background-color: #f4f5f6;
-  padding: 20px;
+	max-width: 300px;
+	border: 1px solid #e5e5e5;
+	background-color: #f4f5f6;
+	padding: 20px;
 }
 
 .form-control {
-  height: 32px;
+	height: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+	.bg-md-white {
+		background-color: #fff;
+	}
 }
