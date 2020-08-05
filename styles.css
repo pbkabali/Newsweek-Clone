@@ -72,6 +72,11 @@ body img {
   overflow-y: scroll;
 }
 
+.phone {
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .bg-md-white {
     background-color: #fff;
