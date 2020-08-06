@@ -19,7 +19,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body class="grey-background">
     <div class="container-fluid">
       <nav class="row nav-top justify-content-between p-0">
         <div
@@ -30,15 +30,15 @@
           </p>
           <p>Fri, Jul 31, 2020</p>
         </div>
-        <div class="col d-flex align-items-center">
+        <div class="col d-flex align-items-center px-0 pl-sm-2">
           <img
-            class="col-8 col-sm-5 col-md-4 col-lg-12 px-0 my-3"
+            class="col-12 col-sm-5 col-md-4 col-lg-12 px-0 my-3"
             src="./images/Newsweek_logo.png"
             alt="logo"
           />
         </div>
         <div
-          class="row col align-items-center justify-content-end text-white px-4 mx-0 pt-lg-4"
+          class="row col-10 col-sm-6 align-items-center justify-content-end text-white pl-0 pr-1 px-md-4 mx-0 pt-lg-4"
         >
           <i class="fa fa-user d-md-none"></i>
           <button
@@ -396,7 +396,7 @@
           <h6 class="card-title font-weight-bolder text-black-50 my-2">
             THE DEBATE
           </h6>
-          <div class="border-top border-bottom border-3">
+          <div class="border-3">
             <div
               class="media d-flex align-items-center border-bottom py-3 mb-1"
             >
@@ -505,7 +505,7 @@
               Greece’s widely praised management of COVID-19 makes the Mediterranean country one of the safest and most rewarding places in the world for tourists and investors in 2020. Read more.
             </p>
           </div>
-          <div class="sign-up text-center py-3 mx-auto mb-5 mt-2">
+          <div class="sign-up text-center py-3 mx-auto mb-5 mt-2 grey-background">
             <H3 class="float-left text-white font-weight-bolder px-2 mr-3 nav-top"> N</H3>
             <h6 class="text-left font-weight-bolder">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
             <input class="my-2 form-control rounded-0 pl-2" type="text" placeholder="Email address">
@@ -975,7 +975,7 @@
               Greece’s widely praised management of COVID-19 makes the Mediterranean country one of the safest and most rewarding places in the world for tourists and investors in 2020. Read more.
             </p>
           </div>
-          <div class="sign-up text-center py-3 mx-auto mb-5 mt-2">
+          <div class="sign-up text-center py-3 mx-auto mb-5 mt-2 grey-background">
             <h3 class="float-left text-white font-weight-bolder px-2 mr-3 nav-top">N</h3>
             <h6 class="text-left font-weight-bolder">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
             <input class="my-2 form-control rounded-0 pl-2" type="text" placeholder="Email address">
@@ -1660,21 +1660,29 @@
       <div class="container-fluid mx-0 p-0 row order-md-3">
         <div class=" container-fluid bg-white pt-2 px-4 my-3 col-12 col-lg-7">
           <h6 class="text-danger font-weight-bold">SUBSCRIBE</h6>
-          <div class="container-fluid bg-light pt-2 px-4 my-3 col-12 clearfix">
-          <img class="float-left mr-2" src="https://d.newsweek.com/en/full/1611327/cover-july-31-august-07-2020.jpg?w=170&q=95&f=e9849b39e78f364f0f8bb410954aa063" alt="Other guy">
-          <div class="">
-            <h5 class="font-weight-bolder my-3">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
-            <p class="small my-3">All Access + Weekly Delivery.
-              Choose A Membership That's Perfect for You!</p>
-              <button class="btn-danger font-weight-bold nav-top py-2 rounded border-0 my-3">SUBSCRIBE</button>
+          <div class="grey-background container-fluid bg-light pt-2 px-4 my-3 col-12 clearfix d-md-none subs pt-2 pb-3">
+            <div class="text-center text-md-left mb-n4 mt-5 pt-5">
+              <h5 class="font-weight-bolder my-5">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+              <p class="small my-3">All Access + Weekly Delivery.
+                Choose A Membership That's Perfect for You!</p>
+                <button class="btn-danger font-weight-bold nav-top py-2 rounded border-0 my-3">SUBSCRIBE</button>
+            </div>
           </div>
-        </div>
+          <div class="grey-background container-fluid bg-light pt-2 px-4 my-3 col-12 clearfix d-none d-md-block">
+            <img class="float-left mr-2" src="./images/subscribe-imgs.png" alt="Other guy">
+              <div class="text-center text-md-left">
+                <h5 class="font-weight-bolder my-3">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+                <p class="small my-3">All Access + Weekly Delivery.
+                  Choose A Membership That's Perfect for You!</p>
+                  <button class="btn-danger font-weight-bold nav-top py-2 rounded border-0 my-3">SUBSCRIBE</button>
+              </div>
+          </div>
         </div>
 
         <!-- Newsletter -->
         <div class="container-fluid bg-white mx-0 pt-2 px-4 my-3 col-12 col-lg-5 row">
           <h6 class="text-danger font-weight-bold">NEWSLETTER</h6>
-          <div class="container-fluid text-center p-2 p-md-0 mb-5 mt-2 border d-flex row">
+          <div class="container-fluid text-center p-2 p-md-0 mb-5 mx-0 mt-2 border d-flex row">
             <div class="mr-3 d-none p-0 d-md-block col-md-4 col-lg-5">
               <img class="phone" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="newsweek phone">
             </div>
@@ -1689,7 +1697,7 @@
     </div>
     </main>
     <!-- Footer -->
-    <div class="container-fluid bg-white m-0 pr-0">
+    <div class="container-fluid bg-white m-0 pr-0 pb-4">
       <div
         class="d-md-flex container-md-fluid align-items-end justify-content-between border-bottom pb-3 mb-3 pr-0"
       >
@@ -1701,19 +1709,19 @@
         </div>
         <div class="col-12 col-md-2 d-md-flex pl-0 pr-0 justify-content-end">
           <a href="#" class="text-secondary"
-            ><i class="fa fa-facebook-official mr-3"></i
+            ><i class="fa fa-facebook-official icon-large fa-lg mr-3"></i
           ></a>
           <a href="#" class="text-secondary"
-            ><i class="fa fa-twitter mr-3"></i
+            ><i class="fa fa-twitter icon-large fa-lg mr-3"></i
           ></a>
           <a href="#" class="text-secondary"
-            ><i class="fa fa-instagram mr-3"></i
+            ><i class="fa fa-instagram icon-large fa-lg mr-3"></i
           ></a>
           <a href="#" class="text-secondary"
-            ><i class="fa fa-tumblr mr-3"></i
+            ><i class="fa fa-tumblr icon-large fa-lg mr-3"></i
           ></a>
           <a href="#" class="text-secondary"
-            ><i class="fa fa-linkedin mr-3"></i
+            ><i class="fa fa-linkedin icon-large fa-lg mr-3"></i
           ></a>
         </div>
       </div>
