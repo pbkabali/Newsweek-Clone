@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 1310px;
+  margin: auto;
+}
+
+.grey-background {
+  background-color: #f4f5f6;
+}
+
+body img {
+  background-color: white;
+}
+
+.nav-top {
+  background-color: #f72210;
+}
+
+.subscribe-button {
+  background-color: #ffe400;
+  font: bold 12px/24px "Roboto Condensed", sans-serif;
+  padding: 2px 12px;
+}
+
+.badge-paul {
+  height: 1px;
+  border-top: 15px solid #f72210;
+  border-left: 13px solid #fff;
+  width: 100px;
+  top: 0;
+  right: 0;
+}
+
+.opinion {
+  font-size: 1rem;
+}
+
+.vs {
+  right: 49%;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.border-3 {
+  border-top: solid 4px #f4f5f6;
+  border-bottom: solid 4px #f4f5f6;
+}
+
+.bg-lighter {
+  background-color: #c2d4d7;
+  font-size: 11px;
+}
+
+.sign-up {
+  max-width: 300px;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+}
+
+.form-control {
+  height: 32px;
+}
+
+.sponsored {
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.subs {
+  background-image: url(./images/subscribe-imgs.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.phone {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-md-white {
+    background-color: #fff;
+  }
+
+  .bottom-border {
+    border-bottom: 1px #e5e5e5 solid;
+  }
+}
